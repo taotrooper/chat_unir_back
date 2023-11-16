@@ -5,6 +5,8 @@ const cors = require('cors');
 // Config .env
 require('dotenv').config();
 
+console.log("Entra en el server");
+
 // Creación de la app de Express
 const app = express();
 app.use(cors());
